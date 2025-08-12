@@ -375,6 +375,7 @@
                 grid-template-columns: 1fr;
                 gap: 40px;
                 text-align: center;
+               
             }
 
             .hero-content h1 {
@@ -387,10 +388,48 @@
 
             .hero-visual {
                 height: 400px;
+                
             }
 
             .student-card {
                 width: 150px;
                 height: 180px;
+               
             }
+
+
+     .student-card.card-1,
+    .student-card.card-2 {
+        width: 150px;
+        height: 180px;
+    }
+
+
+    .student-card.card-2{
+        right: 1%;
+    }
+    
+    .student-card.card-3 {
+        width: 250px;
+        height: 120px;
+        top: 83%;
+        right: 15%;
+    }
+    
+    .student-card.card-4 {
+        width: 60px;
+        height: 60px;
+        border-width: 4px;
+        top: 56%;
+        right: 42%;
+    }
+    
+    .student-card.card-5 {
+        width: 120px;
+        height: 50px;
+        top: 80%;
+        right: 25%;
+    }
+
+
         }
