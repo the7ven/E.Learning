@@ -19,9 +19,37 @@
                 <li><a href="#">Tutor</a></li>
                 <li><a href="#">Admission</a></li>
                 <li><a href="#">About</a></li>
+                 
             </ul>
-            <button class="contact-btn">Contact</button>
+           <button class="contact-btn">Contact</button>
+
+              <!-- Menu Hamburger -->
+        <button class="hamburger" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        
+             <!-- Overlay pour le menu mobile -->
+    <div class="mobile-menu-overlay" onclick="closeMenu()"></div>
+    
+    <!-- Menu Mobile -->
+    <div class="mobile-menu">
+        <ul class="mobile-nav-links">
+            <li><a href="#" onclick="closeMenu()">Course</a></li>
+            <li><a href="#" onclick="closeMenu()">Pricing</a></li>
+            <li><a href="#" onclick="closeMenu()">Tutor</a></li>
+            <li><a href="#" onclick="closeMenu()">Admission</a></li>
+            <li><a href="#" onclick="closeMenu()">About</a></li>
+        </ul>
+        <button class="mobile-contact-btn" onclick="closeMenu()">Contact</button>
+    </div>
+
+          
         </nav>
+
+
+   
 
         <section class="hero">
             <div class="hero-content">
@@ -102,6 +130,6 @@
 
   
    
-  
+  <script src="scripts.js"></script>
 </body>
 </html>
